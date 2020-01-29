@@ -1,0 +1,36 @@
+
+%apples {
+  border: 35px solid red;
+  padding: 10px;
+  color: #333;
+}
+%oranges {
+  border: 100px solid Purple;
+}
+
+%pineapples {
+  display: flex;
+  flex-wrap: wrap;
+}
+%sanity{
+  display: none;
+}
+
+.apples-secret {
+  @extend %apples;
+}
+
+.oranges-secret {
+  @extend %oranges;
+  border-color: green;
+}
+
+.pizzatime {
+  @extend %pineapples;
+  font-size: 40px;
+}
+
+.pizzatime-warning {
+  @extend %pineapples;
+  font-size: 50px;
+}

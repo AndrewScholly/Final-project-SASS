@@ -1,0 +1,28 @@
+.apples-secret {
+  border: 35px solid red;
+  padding: 10px;
+  color: #333;
+}
+
+.oranges-secret {
+  border: 100px solid Purple;
+}
+
+.pizzatime-warning, .pizzatime {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.oranges-secret {
+  border-color: green;
+}
+
+.pizzatime {
+  font-size: 40px;
+}
+
+.pizzatime-warning {
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=placeholderextend.css.map */
