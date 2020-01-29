@@ -1,0 +1,61 @@
+h1 {
+  font-size: 18px;
+  text-shadow: 20%;
+}
+
+h2 {
+  @extend h1;
+  color: red;
+}
+
+h3 {
+  @extend h1;
+  color: purple;
+}
+$pizza-time: arial, sans-serif;
+$primary-color: #3434;
+$sneaky-stuff: 40px;
+
+p {
+  font: 50% $pizza-time;
+  color: $primary-color;
+  font-size: $sneaky-stuff;
+}
+$sneaky-stuff: 20px;
+
+.specialp {
+  font-size: $sneaky-stuff;
+}
+$black: #265 !default;
+
+.default {
+  $black;
+}
+
+.changedefault {
+  color: $black(#999);
+}
+
+nav {
+  ul {
+    margin: 5px;
+    padding: 10px;
+    list-style: armenian;
+  }
+
+  li {
+    display: none;
+  }
+
+  a {
+    display: flex;
+    padding: 20px 5px;
+    text-decoration: line-through;
+  }
+}
+.specialp {
+  color:blue;
+  &:hover {
+    font-weight: bold;
+  }
+}

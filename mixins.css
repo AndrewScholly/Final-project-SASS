@@ -1,0 +1,13 @@
+nav {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+nav p {
+  display: inline-block;
+  margin-all: 30px;
+}
+nav p padding {
+  all: 30px;
+}
+
+/*# sourceMappingURL=mixins.css.map */

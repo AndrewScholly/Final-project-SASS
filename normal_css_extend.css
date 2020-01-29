@@ -1,0 +1,48 @@
+h1, h2, h3 {
+  font-size: 18px;
+  text-shadow: 20%;
+}
+
+h2 {
+  color: red;
+}
+
+h3 {
+  color: purple;
+}
+
+p {
+  font: 50% arial, sans-serif;
+  color: #3434;
+  font-size: 40px;
+}
+
+.specialp {
+  font-size: 20px;
+}
+
+.default {
+  color: #265;
+}
+
+nav ul {
+  margin: 5px;
+  padding: 10px;
+  list-style: armenian;
+}
+
+nav li {
+  display: flex;
+}
+
+nav a {
+  display: none;
+  padding: 20px 5px;
+  text-decoration: line-through;
+}
+.specialp {
+  color: blue;
+}
+.specialp:hover {
+  font-weight: bold;
+}

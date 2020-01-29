@@ -1,0 +1,22 @@
+@mixin starting-list {
+margin-left: 20px;
+padding-top: 20px;
+}
+
+@mixin horizontal-list {
+  @include starting-list;
+
+  p {
+    display: inline-block;
+    margin: {
+      all: 30px;
+    }
+    padding{
+      all: 30px;
+    }
+  }
+}
+
+nav {
+  @include horizontal-list;
+}
