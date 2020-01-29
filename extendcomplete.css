@@ -1,0 +1,9 @@
+.example, .hover-link {
+  color: green;
+}
+
+.example:hover, .hover-link {
+  color: red;
+}
+
+/*# sourceMappingURL=extendcomplete.css.map */

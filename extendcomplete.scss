@@ -1,0 +1,11 @@
+.example {
+  color: green;
+}
+
+.example:hover {
+  color: red;
+}
+
+.hover-link {
+  @extend .example, :hover;
+}
